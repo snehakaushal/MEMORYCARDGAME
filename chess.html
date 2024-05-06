@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>
+        chess information
+    </title>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="chess.jpg">
+            </div>
+            <li><a href="#web">Chess</a></li>
+            <li><a href="#program">About chess</a></li>
+            <li><a href="#course">Help</a></li>
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web">
+                    History
+                </h1>
+                 
+                <p class="text-small">
+                    The history of chess can be traced back nearly 1,500 years to its earliest known predecessor, called chaturanga, in India; its prehistory is the subject of speculation. From India it spread to Persia, where it was modified in terms of shapes and rules and developed into Shatranj. Following the Arab invasion and conquest of Persia, chess was taken up by the Muslim world and subsequently spread to Europe via Spain (Al Andalus) and Italy (Emirate of Sicily). The game evolved roughly into its current form by about 1500 CE.
+"Romantic chess" was the predominant playing style from the late 18th century to the 1880s.[1] Chess games of this period emphasized quick, tactical maneuvers rather than long-term strategic planning.[1] The Romantic era of play was followed by the Scientific, Hypermodern, and New Dynamism eras.[1] In the second half of the 19th century, modern chess tournament play began, and the first official World Chess Championship was held in 1886. The 20th century saw great leaps forward in chess theory and the establishment of the World Chess Federation. In 1997, an IBM supercomputer beat Garry Kasparov, the then world chess champion, in the famous Deep Blue versus Garry Kasparov match, ushering the game into an era of computer domination. Since then, computer analysis – which originated in the 1970s with the first programmed chess games on the market – has contributed to much of the development in chess theory and has become an important part of preparation in professional human chess. Later developments in the 21st century made the use of computer analysis far surpassing the ability of any human player accessible to the public. Online chess, which first appeared in the mid-1990s, also became popular in the 21st century.
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="secondHalf">
+                <h1 class="text-big" id="program">
+                    Rules
+                </h1>
+                <p class="text-small">
+                   <ol>
+                    <li><bold> The Chessboard:</bold>
+A standard chessboard consists of 64 alternating dark and light squares as well as an initial setup of 32 pieces.</li>
+                    <li><bold>The Chess Pieces:</bold>Each piece mentioned also has a capital letter that corresponds to the piece moving. Here is a list of what each piece’s 1-letter abbreviation is:<ul><li>Bishop</li>
+                        <li>Rook</li>
+                        <li>Queen</li>
+                        <li>King</li>
+                        <li>Pawn</li>
+                        <li>Knight</li></ul></li>
+                        Just know that usually players just leave a pawn move as “d4” instead of “Pd4”
+
+                        Also, we use “N” for knight because “K” is already used for king.
+                        
+                        So if a pawn were to move on the “d4” square, we could say either “d4” or “Pd4” as the first move. The diagram below shows a green arrow to represent the move “d4” 
+                        Now you may be asking how this even relates to chess. After all, isn’t it just a bunch of letters and numbers?
+
+Of course, it is! Still, using these coordinates (in the “piece-file-rank” or “file-rank” format) is how we can more clearly communicate where pieces are moving.
+                    <li><bold>Setting up Chess Pieces:</bold>In setting up the board, let’s use our newfound knowledge to organize what pieces are where on the chessboard</li>                  
+                    </ol></p>
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">How to paly:</h1>
+ 
+            <p class="sectionSubTag text-small">
+                <ol>
+                    <li><bold>Step 1.</bold> Place 8 pawns across the 2nd and 7th ranks</li>
+                    <li><bold>Step 2.</bold> Place 2 rooks on the a1/a8 and h1/h8 squares</li>
+                    <li><bold>Step 3.</bold>Place 2 knights on the b1/b8 and g1/g8 squares</li> 
+                    <li><bold>Step 4.</bold> Place 2 bishops on the c1/c8 and f1/f8 squares</li>
+                    <li><bold>Step 5.</bold>And finally place the queens on the d1/d8 squares and the kings on the e1 and e8 squares. A good way to remember is that the Queen always goes on the square of her color. So, the White queen is on the light-colored d1 square. The Black queen is on the dark-colored d8 square.</li>      
+                </ol>
+            </p>
+ 
+ 
+        </div>
+ 
+        <div class="thumbnail">
+            <img src="chess.jpg" alt="chess">
+        </div>
+    </section>
+ 
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+ 
+ 
+    </footer>
+</body>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+ 
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+ 
+    .background {
+        background: black;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+ 
+    .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+ 
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .logo img {
+        width: 180px;
+        border-radius: 50px;
+    }
+ 
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+ 
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+    }
+ 
+    .nav-list li a:hover {
+        color: grey;
+    }
+ 
+    .rightnav {
+        width: 30%;
+        text-align: right;
+    }
+ 
+    #search {
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid grey;
+        border-radius: 9px;
+    }
+ 
+    .firstsection {
+        background-color: green;
+        height: 400px;
+    }
+ 
+    .secondsection {
+        background-color: blue;
+        height: 400px;
+    }
+ 
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        max-width: 80%;
+        margin: auto;
+        height: 80%;
+    }
+ 
+    .firsthalf {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ 
+    .secondhalf {
+        width: 30%;
+    }
+ 
+    .secondhalf img {
+        width: 70%;
+        border: 4px solid rgb(241, 12, 12);
+        border-radius: 150px;
+        display: block;
+        margin: auto;
+    }
+ 
+    .text-big {
+        font-family: 'Piazzolla', serif;
+        font-weight: bold;
+        font-size: 35px;
+    }
+ 
+    .text-small {
+        font-size: 18px;
+    }
+ 
+    .btn {
+        padding: 8px 20px;
+        margin: 7px 0;
+        border: 2px solid white;
+        border-radius: 8px;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+ 
+    .btn-sm {
+        padding: 6px 10px;
+        vertical-align: middle;
+    }
+ 
+    .section {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+        margin: auto;
+    }
+ 
+    .section-Left {
+        flex-direction: row-reverse;
+    }
+ 
+    .paras {
+        padding: 0px 65px;
+    }
+ 
+    
+
+    .thumbnail img {
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 26px;
+        margin-top: 19px;
+    }
+ 
+    .center {
+        text-align: center;
+    }
+ 
+    .text-footer {
+        text-align: center;
+        padding: 30px 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+</style>
+ 
+</html>
