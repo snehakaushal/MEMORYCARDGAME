@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Game Boxes</title>
+<h1>PLAY NEW GAMES
+</h1>
+<style>
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-size: 60px;
+ font-style: italic;
+}
+.search {
+  text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.game-box {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px; /* Increased padding for larger boxes */
+    box-sizing: border-box;
+    background-color: #e74c3c; /* Default box color */
+    color: #fff;
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden;
+    position: relative;
+}
+
+.game-box:hover {
+    background-color: #3498db; /* Hover box color */
+}
+</style>
+</head>
+<body>
+
+
+    <div class="game-container">
+
+
+        <div class="game-box box1"><h3><a href="game1.html">TIC TAC TOE</a><br>________________________</h3>
+       <img src="game1.jpg" width="220px" height="230">
+       
+       </div>
+
+
+        <div class="game-box box2"><h3><a href="game2.html">SNAKE GAME</a><br>________________________</h3>
+<img src="game2.jpg" width="250px" height="220" >
+</div>
+
+
+        <div class="game-box box3"><h3><a href="game3.html">ACCELERATE</a><br>________________________</h3>
+       <img src="game3.jpg" width="250px" height="220">
+
+
+    </div>
+
+
+        <div class="game-box box4"><h3><a href="game4.html">GUESS THE WORD</a><br>
+                                     ________________________</H3>
+<img src="game4.jpg" width="250px" height="220">
+</div>
+
+
+        <div class="game-box box5"><h3><a href="game5.html">TYPING SPEED</a><br>
+________________________</H3>
+      <img src="game5.jpg" width="250" height="220"></div>
+
+
+        <div class="game-box box6"><h3><a href="game6.html">CROSSWORD PUZZLE</a><br>________________________</h3>
+<img src="game6.jpg" width="250" height="220"></div>
+
+
+    </div>
+
+
+</body>
+</html>
