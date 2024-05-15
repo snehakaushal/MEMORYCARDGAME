@@ -9,6 +9,8 @@ this is the starting page of our web site
 
 
 FOOTER IS PROVIDED FOR THE FEEDBACK
+in this section we tried to take the feedback from our users
+![alt text](<Screenshot 2024-05-15 153155.png>)
 
 
 
