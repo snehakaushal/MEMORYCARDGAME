@@ -5,3 +5,4 @@ this website is userfriendly which povides information about some of the games l
 
 THE MAIN PAGE OF THE WEBSITE
 ![alt text](<Screenshot 2024-05-15 151243.png>)
+this is the starting page of our web site
