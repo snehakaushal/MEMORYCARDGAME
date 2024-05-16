@@ -20,5 +20,3 @@ THE LOGIN PAGE
 To get the membership of our website we designed a simple login page
 ![alt text](<Screenshot 2024-05-15 151647.png>)
 
-MEMORY CARD GAME
-![alt text](image.png)
