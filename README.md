@@ -21,6 +21,7 @@ To get the membership of our website we designed a simple login page
 ![alt text](<Screenshot 2024-05-15 151647.png>)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 TO START ENJOYING GAME PRESS HIGHLETED BUTTON BELOW
 ![alt text](<Screenshot 2024-05-16 172018.png>) 
@@ -28,3 +29,6 @@ TO START ENJOYING GAME PRESS HIGHLETED BUTTON BELOW
 
 =======
 >>>>>>> f8fe824a28bb171b22cb68e246321b0cd97056b1
+=======
+VIDEO PAGE OF WEBSITE INCLUDES A YOUTUBE VIDEO LINK ADDED USING VIDEO TAG
+>>>>>>> origin/main
