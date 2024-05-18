@@ -35,7 +35,7 @@ var snake = {
   x: 160,
   y: 160,
 
-  // snake velocity. moves one grid length every frame in either the x or y direction
+  // Snake velocity. moves one grid length every frame in either the x or y direction
   dx: grid,
   dy: 0,
 
